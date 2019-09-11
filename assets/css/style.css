@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 #header {
     background:#ffffff;
     margin: 0;
@@ -21,10 +26,10 @@
     float: left;
 }
 
-.clearfix::after {
+.clearfix {
     content: "";
     clear: both;
-    display: table;
+    display: block;
   }
 
 
@@ -49,25 +54,20 @@
     border-left: 0.5px solid #cccccc;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
 #AboutMe {
     width: 896px;
     padding-top: 0px;
     padding-bottom: 20px;
     padding-left: 32px;
     padding-right: 32px;
-    margin-left: auto; 
-    margin-right: auto;
+    margin: 0 auto;
+    /* margin-left: auto;  */
+    /* margin-right: auto; */
     text-align: left; 
     line-height: 2; 
     background: #ffffff;
     border: 1px solid #dddddd;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 #AboutMeHeader {
@@ -90,17 +90,12 @@ p {
     font-size: 16px; 
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-
 #footer {
     background: #666666;
     color: #ffffff;
     font-size: 12px;
     padding-top: 40px;
     border-top: 10px solid #4aaaa4;
+    margin-top: 100px;
 }
 
