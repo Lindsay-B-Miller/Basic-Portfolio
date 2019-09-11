@@ -17,7 +17,7 @@
     margin-top: 0px;
     margin-right: 0px;
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 30px;
+    font-size: 28px;
     float: left;
 }
 
@@ -32,20 +32,75 @@
 .btn {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
     float: right;
     font-size: 16px; 
+    text-decoration: none;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 15px 0px 15px;
+    
 }
 
 #about {
-    padding: 20px;
-    border-right: 1px solid #cccccc;
-}
-
-#portfolio {
-    padding: 20px;
+    border-right: 0.5px solid #cccccc;
 }
 
 #contact {
-    padding: 20px;
-    border-left: 1px solid #cccccc;
+    border-left: 0.5px solid #cccccc;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#AboutMe {
+    width: 896px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: left; 
+    line-height: 2; 
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    overflow: auto;
+}
+
+#AboutMeHeader {
+    color: #4aaaa4;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px; 
+    border-bottom: 2px solid #cccccc;
+}
+
+#snowman {
+    height: 175px;
+    width: 160px;
+    float: left;
+    margin-right: 20px; 
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+#footer {
+    background: #666666;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 40px;
+    border-top: 10px solid #4aaaa4;
+}
+
