@@ -96,10 +96,11 @@ p {
 #footer {
     background: #666666;
     color: #ffffff;
-    font-size: 12px;
-    padding-top: 40px;
-    border-top: 10px solid #4aaaa4;
-    margin-top: 80px;
+    font-size: 11px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-top: 7px solid #4aaaa4;
+    margin-top: 85px;
     text-align: center;
 }
 
@@ -110,11 +111,12 @@ p {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 28px; 
     border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
 }
 
 #Portfolio {
     width: 675px;
-    padding-top: 0px;
+    padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 32px;
     padding-right: 32px;
@@ -163,6 +165,7 @@ p {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 28px; 
     border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
 }
 
 #Contact {
@@ -215,9 +218,10 @@ input[type=submit]:hover {
 #contactfooter {
     background: #666666;
     color: #ffffff;
-    font-size: 12px;
-    padding-top: 40px;
-    border-top: 10px solid #4aaaa4;
-    margin-top: 135px;
+    font-size: 11px;
+    padding-top: 30px;
+    border-top: 7px solid #4aaaa4;
+    margin-top: 150x;
     text-align: center;
+    padding-bottom: 5px;
 }
