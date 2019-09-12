@@ -9,6 +9,10 @@ body {
     background-image: url('../images/pattern.png');
 }
 
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
 #header {
     background:#ffffff;
     margin: 0;
@@ -23,7 +27,7 @@ body {
     background: #4aaaa4;
     width: 300px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-right: 0px;
